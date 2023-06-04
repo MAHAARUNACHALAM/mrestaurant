@@ -1,0 +1,46 @@
+{
+    "menuItems": [
+      {
+        "name": "Burger",
+        "image": "https://via.placeholder.com/150",
+        "description": "Delicious burger with all the fixings."
+      },
+      {
+        "name": "Pizza",
+        "image": "https://via.placeholder.com/150",
+        "description": "Freshly baked pizza with your favorite toppings."
+      },
+      {
+        "name": "Salad",
+        "image": "https://via.placeholder.com/150",
+        "description": "Healthy and refreshing salad made with fresh ingredients."
+      },
+      {
+        "name": "Pasta",
+        "image": "https://via.placeholder.com/150",
+        "description": "Satisfying pasta dish cooked to perfection."
+      },
+      {
+        "name": "Burger",
+        "image": "https://via.placeholder.com/150",
+        "description": "Delicious burger with all the fixings."
+      },
+      {
+        "name": "Pizza",
+        "image": "https://via.placeholder.com/150",
+        "description": "Freshly baked pizza with your favorite toppings."
+      },
+      {
+        "name": "Salad",
+        "image": "https://via.placeholder.com/150",
+        "description": "Healthy and refreshing salad made with fresh ingredients."
+      },
+      {
+        "name": "Pasta",
+        "image": "https://via.placeholder.com/150",
+        "description": "Satisfying pasta dish cooked to perfection."
+      }
+     
+    ]
+  }
+  

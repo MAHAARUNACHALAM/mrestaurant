@@ -1,7 +1,13 @@
 import React from 'react'
+
 import Background from '../../../assets/images/hero_image.png'
 import './RestaurantTagCard.css';
 function RestaurantTagCard() {
+
+
+  const handleReserveClick = () => {
+    window.location.href = '/reservation';
+  };
   return (
     <div className='container'>
         <img src={Background} className="hero-image" alt="Hero" />
@@ -16,7 +22,7 @@ function RestaurantTagCard() {
             <br />stay at heavenly Chennai</p>
         </div>
         <div className="button-container">
-            <button className="reserve-button">Reserve Now</button>
+            <button className="reserve-button" onClick={handleReserveClick}>Reserve Now</button>
         </div>
         </div>
     </div>

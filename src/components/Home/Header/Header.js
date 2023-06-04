@@ -1,9 +1,11 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useContext } from 'react';
 import './Header.css';
 import mbbq from '../../../assets/images/mbbq.png';
+import { AuthContext } from '../../../AuthContext';
 
 
 const Header = () => {
+  const isAuthenticated = useContext(AuthContext);
   return (
     <header className="header">
       <div className="logo">
@@ -18,6 +20,11 @@ const Header = () => {
           <li><a href="/about">ABOUT US</a></li>
           <li><a href="/contact">CONTACT</a></li>
           <li><a href="/events">EVENTS</a></li>
+          {isAuthenticated ? (
+        <li><a href="/logout">LOGOUT</a></li>
+      ) : (
+        <li><a href="/login">LOGIN</a></li>
+      )}
         </ul>
       </nav>
     </header>
